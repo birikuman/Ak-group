@@ -6,14 +6,14 @@ export const AboutUs: React.FC = () => {
       
       {/* Header Banner */}
       <div className="bg-slate-50 border-b border-slate-200 py-12 px-4 sm:px-6 lg:px-8 text-center space-y-3">
-        <span className="inline-block px-3 py-0.5 rounded-full text-[11px] font-bold bg-red-50 text-red-700 border border-red-200 uppercase tracking-wider">
-          WHO WE ARE
+        <span className="inline-block px-3.5 py-1 rounded-full text-[11px] font-extrabold bg-red-50 text-red-700 border border-red-200 uppercase tracking-wider">
+          CUSTOM BRANDING & MERCHANDISE EXPERTS
         </span>
         <h1 className="text-2xl sm:text-4xl font-black text-[#0B2545] tracking-tight">
           AK GROUP <span className="text-gradient-red">LIMITED</span>
         </h1>
-        <p className="max-w-xl mx-auto text-slate-600 text-xs sm:text-sm font-medium">
-          We are a branding and promotional-materials partner focused on helping businesses create stronger visibility through quality, customized branding solutions across Africa.
+        <p className="max-w-2xl mx-auto text-slate-600 text-xs sm:text-sm font-medium leading-relaxed">
+          We specialize in custom corporate branding tailored to customer needs. From bank promotional products, branded drinkware & bottles, to executive gift sets, corporate apparel, and vehicle fleet wrapping — we turn your brand identity into physical products people remember.
         </p>
       </div>
 
@@ -27,7 +27,7 @@ export const AboutUs: React.FC = () => {
             </div>
             <h3 className="text-xl font-black text-[#0B2545]">Our Mission</h3>
             <p className="text-slate-700 text-xs sm:text-sm leading-relaxed font-medium">
-              To empower African businesses, institutions, and campaigns with world-class promotional items, corporate apparel, and environmental branding solutions engineered for high durability and visual distinction.
+              To provide banks, corporations, and institutions across Africa with tailored custom-branded merchandise, corporate apparel, laser-engraved bottles, and 3M vehicle fleet wraps engineered to match exact customer brand specifications.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export const AboutUs: React.FC = () => {
             </div>
             <h3 className="text-xl font-black text-[#0B2545]">Our Vision</h3>
             <p className="text-slate-700 text-xs sm:text-sm leading-relaxed font-medium">
-              To be the premier pan-African branding, merchandise, and vehicle wrapping partner recognized for unmatched quality, seamless cross-border supply chains, and creative craft.
+              To be Africa's premier custom branding partner — delivering reliable, high-volume product branding, precision embroidery, screen printing, and vehicle signage that elevates corporate visibility across regional markets.
             </p>
           </div>
         </div>
@@ -84,9 +84,9 @@ export const AboutUs: React.FC = () => {
               <div className="w-9 h-9 rounded-lg bg-purple-50 text-purple-700 font-black flex items-center justify-center border border-purple-200 text-xs">
                 04
               </div>
-              <h4 className="text-sm font-black text-[#0B2545]">WIDE RANGE</h4>
+              <h4 className="text-sm font-black text-[#0B2545]">TAILORED BRANDING RANGE</h4>
               <p className="text-xs text-slate-600 leading-relaxed font-medium">
-                Creative, customized, and sustainable branding solutions spanning apparel, stationery, drinkware, and fleet signage.
+                Custom logo branding for bank merchandise, stainless bottles & drinkware, corporate apparel, caps, executive gift sets, and 3M vehicle fleet wraps tailored to customer requirements.
               </p>
             </div>
           </div>

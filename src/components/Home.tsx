@@ -26,13 +26,15 @@ export const Home: React.FC = () => {
               <span className="text-gradient-red">GET NOTICED.</span>
             </h1>
 
-
+            <p className="text-slate-600 text-xs sm:text-sm font-medium leading-relaxed max-w-md">
+              Custom corporate branding tailored to customer needs. Custom logos on bank promotional merchandise, stainless bottles & cups, corporate apparel, caps, and vehicle fleet wrapping across Africa.
+            </p>
 
             <div className="pt-2 border-t border-slate-200 text-xs font-bold text-slate-500 tracking-wider uppercase flex flex-wrap gap-2">
-              <span className="text-[#0B2545]">Apparel</span> •
-              <span className="text-[#0B2545]">Merchandise</span> •
-              <span className="text-[#0B2545]">Fleet Wrap</span> •
-              <span className="text-red-600">Pan-African Supply</span>
+              <span className="text-[#0B2545]">Bottles & Drinkware</span> •
+              <span className="text-[#0B2545]">Apparel & Caps</span> •
+              <span className="text-[#0B2545]">Bank Merchandise</span> •
+              <span className="text-red-600">Vehicle Fleet Wrap</span>
             </div>
           </div>
 
