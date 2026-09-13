@@ -136,72 +136,72 @@ export const Home: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Okiyo Eco-Friendly Gifts */}
           <div 
             onClick={() => {
-              setActiveTab('catalogues');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
+              setPreviewImageUrl('/images/Brand-Web-Banners-2026-Okiyo.jpg');
             }}
             className="white-card-thick rounded-3xl overflow-hidden cursor-pointer group shadow-md hover:shadow-2xl border border-slate-200 transition duration-500"
           >
             <div className="relative h-64 overflow-hidden bg-slate-100">
               <img 
                 src="/images/Brand-Web-Banners-2026-Okiyo.jpg" 
-                alt="Okiyo Eco-Friendly Corporate Collection" 
+                alt="Okiyo Eco-Friendly Gifts" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
               />
               <div className="absolute top-3 left-3 bg-[#0B2545]/90 text-white font-extrabold text-[10px] px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-sm shadow">
                 OKIYO ECO LINE
               </div>
             </div>
-            <div className="p-4 bg-white">
-              <h3 className="font-extrabold text-[#0B2545] text-sm">Okiyo Eco-Friendly Gifts</h3>
-              <p className="text-xs text-slate-500 font-medium">Sustainable bamboo, cork & organic corporate gifts.</p>
+            <div className="p-4 bg-white space-y-1">
+              <h3 className="font-extrabold text-[#0B2545] text-sm group-hover:text-red-600 transition">Okiyo Eco-Friendly Gifts</h3>
+              <p className="text-xs text-slate-600 font-semibold leading-relaxed">Sustainable bamboo, cork & organic corporate gifts.</p>
             </div>
           </div>
 
+          {/* Kooshty Drinkware */}
           <div 
             onClick={() => {
-              setActiveTab('catalogues');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
+              setPreviewImageUrl('/images/Brand-Web-Banners-2026-Kooshty.jpg');
             }}
             className="white-card-thick rounded-3xl overflow-hidden cursor-pointer group shadow-md hover:shadow-2xl border border-slate-200 transition duration-500"
           >
             <div className="relative h-64 overflow-hidden bg-slate-100">
               <img 
                 src="/images/Brand-Web-Banners-2026-Kooshty.jpg" 
-                alt="Kooshty Drinkware Collection" 
+                alt="Kooshty Drinkware & Apparel" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
               />
               <div className="absolute top-3 left-3 bg-red-600/90 text-white font-extrabold text-[10px] px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-sm shadow">
                 KOOSHTY LIFESTYLE
               </div>
             </div>
-            <div className="p-4 bg-white">
-              <h3 className="font-extrabold text-[#0B2545] text-sm">Kooshty Drinkware & Apparel</h3>
-              <p className="text-xs text-slate-500 font-medium">Premium insulated tumblers & active lifestyle gear.</p>
+            <div className="p-4 bg-white space-y-1">
+              <h3 className="font-extrabold text-[#0B2545] text-sm group-hover:text-red-600 transition">Kooshty Drinkware & Apparel</h3>
+              <p className="text-xs text-slate-600 font-semibold leading-relaxed">Premium insulated tumblers & active lifestyle gear.</p>
             </div>
           </div>
 
+          {/* Executive Diaries */}
           <div 
             onClick={() => {
-              setActiveTab('catalogues');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
+              setPreviewImageUrl('/images/Brand-Web Banners-2026-Diaries.jpg');
             }}
             className="white-card-thick rounded-3xl overflow-hidden cursor-pointer group shadow-md hover:shadow-2xl border border-slate-200 transition duration-500"
           >
             <div className="relative h-64 overflow-hidden bg-slate-100">
               <img 
                 src="/images/Brand-Web Banners-2026-Diaries.jpg" 
-                alt="2026 Executive Diaries" 
+                alt="2026 Executive Planners" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
               />
               <div className="absolute top-3 left-3 bg-amber-600/90 text-white font-extrabold text-[10px] px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-sm shadow">
                 EXECUTIVE DIARIES
               </div>
             </div>
-            <div className="p-4 bg-white">
-              <h3 className="font-extrabold text-[#0B2545] text-sm">2026 Executive Planners</h3>
-              <p className="text-xs text-slate-500 font-medium">Debossed leather diaries & desk management notebooks.</p>
+            <div className="p-4 bg-white space-y-1">
+              <h3 className="font-extrabold text-[#0B2545] text-sm group-hover:text-red-600 transition">2026 Executive Planners</h3>
+              <p className="text-xs text-slate-600 font-semibold leading-relaxed">Debossed leather diaries & desk management notebooks.</p>
             </div>
           </div>
         </div>
