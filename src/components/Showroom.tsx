@@ -280,13 +280,8 @@ export const Showroom: React.FC = () => {
                           )}
                         </div>
 
-                        {/* MOQ badge */}
                         <div className="absolute bottom-3 right-3 bg-white/95 backdrop-blur-sm px-2.5 py-1 rounded-lg text-[10px] font-mono text-[#0B2545] font-black border border-slate-200 shadow-md">
                           MOQ: {product.minimumQuantity}
-                        </div>
-
-                        <div className="absolute bottom-3 left-3 bg-red-600/90 text-white text-[9px] font-bold px-2 py-0.5 rounded-full shadow backdrop-blur-sm">
-                          CLICK TO ENLARGE
                         </div>
                       </div>
 

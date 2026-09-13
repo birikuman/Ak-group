@@ -29,10 +29,6 @@ export const ImageLightboxModal: React.FC = () => {
             className="max-h-[82vh] w-auto object-contain rounded-2xl transition-transform duration-700 hover:scale-110"
           />
         </div>
-
-        <span className="text-white/80 text-xs font-mono font-bold uppercase tracking-wider">
-          Click image or press CLOSE to exit full-screen view
-        </span>
       </div>
     </div>
   );
