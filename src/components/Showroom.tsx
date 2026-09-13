@@ -325,7 +325,7 @@ export const Showroom: React.FC = () => {
                     {/* Card Footer Actions - Big Action Button */}
                     <div className="px-4 pb-4 pt-2 border-t border-slate-100 flex items-center justify-between gap-2 bg-slate-50/50">
                       <div className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
-                        Custom Quote
+                        AK GROUP
                       </div>
 
                       <button

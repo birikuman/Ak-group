@@ -161,12 +161,7 @@ export const Navbar: React.FC = () => {
 
             {/* Right Action CTA Button */}
             <div className="flex items-center gap-2">
-              <button
-                onClick={() => handleNavClick('quote')}
-                className="px-3.5 py-2 rounded-lg bg-red-600 hover:bg-red-500 text-white font-extrabold text-xs shadow transition"
-              >
-                REQUEST A QUOTE
-              </button>
+
 
               {/* Mobile Menu Toggle */}
               <button
@@ -254,12 +249,7 @@ export const Navbar: React.FC = () => {
               CONTACT US
             </button>
 
-            <button
-              onClick={() => handleNavClick('quote')}
-              className="w-full text-center py-2.5 bg-red-600 text-white font-extrabold rounded-lg shadow mt-2"
-            >
-              REQUEST A QUOTE
-            </button>
+
           </div>
         )}
       </header>

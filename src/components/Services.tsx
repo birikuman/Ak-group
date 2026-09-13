@@ -77,9 +77,7 @@ export const Services: React.FC = () => {
               <div className="absolute top-4 left-4 bg-red-600 text-white font-black text-xs px-3 py-1 rounded-full uppercase tracking-wider shadow">
                 SERVICE 0{index + 1}
               </div>
-              <div className="absolute bottom-4 right-4 bg-black/80 text-white text-[10px] font-bold px-3 py-1 rounded-full shadow backdrop-blur-sm">
-                CLICK FOR FULL-SCREEN
-              </div>
+
             </div>
 
             <div className="p-6 space-y-3 bg-white">
@@ -100,15 +98,7 @@ export const Services: React.FC = () => {
                 >
                   VIEW SHOWROOM
                 </button>
-                <button
-                  onClick={() => {
-                    setActiveTab('quote');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-[#0B2545] font-bold text-xs rounded-xl border border-slate-300 uppercase tracking-wider transition"
-                >
-                  REQUEST QUOTE
-                </button>
+
               </div>
             </div>
           </div>

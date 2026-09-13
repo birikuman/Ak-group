@@ -26,17 +26,7 @@ export const Home: React.FC = () => {
               <span className="text-gradient-red">GET NOTICED.</span>
             </h1>
 
-            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-              <button
-                onClick={() => {
-                  setActiveTab('quote');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className="px-8 py-3.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-extrabold text-xs shadow-lg transition flex items-center justify-center border border-red-500 uppercase tracking-wider"
-              >
-                REQUEST QUOTE
-              </button>
-            </div>
+
 
             <div className="pt-2 border-t border-slate-200 text-xs font-bold text-slate-500 tracking-wider uppercase flex flex-wrap gap-2">
               <span className="text-[#0B2545]">Apparel</span> •
@@ -58,9 +48,7 @@ export const Home: React.FC = () => {
                   alt={PRODUCTS[0].name}
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-125"
                 />
-                <div className="absolute top-4 left-4 bg-red-600 text-white text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full shadow">
-                  CLICK TO VIEW FULL-SCREEN VERTICAL
-                </div>
+
                 <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-4 rounded-xl border border-slate-200 flex justify-between items-center text-xs shadow-xl">
                   <div>
                     <h4 className="font-extrabold text-[#0B2545] text-base truncate">{PRODUCTS[0].name}</h4>
@@ -282,15 +270,7 @@ export const Home: React.FC = () => {
             Request your customized corporate quote today. Delivered across East, Southern, and Central Africa.
           </p>
           <div className="pt-2 flex justify-center gap-3 flex-wrap">
-            <button
-              onClick={() => {
-                setActiveTab('quote');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }}
-              className="px-8 py-3.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-black text-xs shadow-lg shadow-red-600/30 transition uppercase tracking-wider"
-            >
-              REQUEST A QUOTE
-            </button>
+
             <button
               onClick={() => {
                 setActiveTab('contact');

@@ -397,24 +397,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ product,
 
             </div>
 
-            {/* Direct Quote Request Action */}
-            <div className="pt-3 border-t border-slate-200 space-y-2">
-              <button
-                onClick={handleDirectQuoteRequest}
-                disabled={inquirySubmitted}
-                className={`w-full py-3 rounded-xl font-extrabold text-xs shadow-md transition flex items-center justify-center uppercase tracking-wider ${
-                  inquirySubmitted
-                    ? 'bg-emerald-600 text-white'
-                    : 'bg-red-600 hover:bg-red-500 text-white shadow-red-600/30'
-                }`}
-              >
-                {inquirySubmitted ? 'Quote Inquiry Received!' : 'REQUEST QUOTE FOR THIS ITEM'}
-              </button>
 
-              <p className="text-[10px] text-center text-slate-500 font-medium">
-                Our branding team in Kigali & Centurion will review artwork specs & contact you within 24 hours.
-              </p>
-            </div>
 
           </div>
 

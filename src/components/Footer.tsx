@@ -53,7 +53,6 @@ export const Footer: React.FC = () => {
             <li><button onClick={() => handleNav('at-work')} className="hover:text-red-400 transition">AT WORK</button></li>
             <li><button onClick={() => handleNav('catalogues')} className="hover:text-red-400 transition font-bold text-red-400">DIGITAL CATALOGUES</button></li>
             <li><button onClick={() => handleNav('about')} className="hover:text-red-400 transition">ABOUT US</button></li>
-            <li><button onClick={() => handleNav('quote')} className="hover:text-red-400 transition">REQUEST A QUOTE</button></li>
             <li><button onClick={() => handleNav('contact')} className="hover:text-red-400 transition">CONTACT US</button></li>
           </ul>
         </div>
