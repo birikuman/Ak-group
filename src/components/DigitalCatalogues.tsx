@@ -187,7 +187,7 @@ export const DigitalCatalogues: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   
   // Pure Page Viewer State (Only Pages Displayed)
-  const [activeFlipbook, setActiveFlipbook] = useState<CatalogueItem | null>(CATALOGUES_DATA[0]);
+  const [activeFlipbook, setActiveFlipbook] = useState<CatalogueItem | null>(null);
   const [currentPageIndex, setCurrentPageIndex] = useState<number>(7); // Page 8 (Index 7)
   const [isDoublePage, setIsDoublePage] = useState<boolean>(false); // Single Page Mode for pure large view
   const [isAutoplay, setIsAutoplay] = useState<boolean>(false);
