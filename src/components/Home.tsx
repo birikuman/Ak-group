@@ -43,11 +43,11 @@ export const Home: React.FC = () => {
             <div className="white-card-thick p-3 sm:p-4 rounded-3xl shadow-2xl bg-white border border-slate-200">
               <div 
                 className="relative h-[480px] sm:h-[560px] rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 cursor-pointer group shadow-inner"
-                onClick={() => setPreviewImageUrl(PRODUCTS[0].image)}
+                onClick={() => setPreviewImageUrl('/images/product-polo-1.webp')}
               >
                 <img
-                  src={PRODUCTS[0].image}
-                  alt={PRODUCTS[0].name}
+                  src="/images/product-polo-1.webp"
+                  alt="Premium Corporate Polo Shirt"
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-125"
                 />
 
