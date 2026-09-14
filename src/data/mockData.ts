@@ -34,7 +34,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'ShoppingBag',
     description: 'Durable executive backpacks, canvas tote bags, laptop sleeves, and travel duffels with subtle branding.',
     sampleItems: 'Backpacks, tote bags, laptop bags, duffels',
-    image: '/images/category-bags.jpg',
+    image: '/images/backpack_fb7405c3-2b3d-4cd7-8c6f-90c4f40a0420_800x.webp',
     isBrochureOriginal: true
   },
   {

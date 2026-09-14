@@ -83,7 +83,7 @@ export const Home: React.FC = () => {
                   src={cat.image}
                   alt={cat.name}
                   className={`w-full h-full ${
-                    cat.image.endsWith('.png') ? 'object-contain p-3 bg-slate-50' : 'object-cover'
+                    cat.image.includes('backpack') || cat.image.endsWith('.png') ? 'object-contain p-3 bg-slate-50' : 'object-cover'
                   } transition-transform duration-700 ease-out group-hover:scale-105`}
                 />
                 <div className="absolute top-3 left-3 bg-[#0B2545]/90 text-white font-extrabold text-xs px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-sm shadow">
