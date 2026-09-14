@@ -7,7 +7,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Shirt',
     description: 'Premium custom shirts, polos, jackets, safety wear, and uniforms tailored for staff and campaigns.',
     sampleItems: 'T-shirts, polo shirts, jackets, uniforms, vests',
-    image: '/images/Amrod-Digital-Catalogue-Web-Page-2026-THE-GOLF-COLLECTION.webp',
+    image: '/images/service-branding.webp',
     isBrochureOriginal: true
   },
   {
@@ -70,7 +70,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Building2',
     description: 'Office environment graphics, 3D acrylic wall signs, reception banners, and architectural window vinyls.',
     sampleItems: '3D logos, wall vinyls, directional signage, flags',
-    image: '/images/category-corporate-branding.jpg',
+    image: '/images/service-branding.webp',
     isBrochureOriginal: false
   },
   {
