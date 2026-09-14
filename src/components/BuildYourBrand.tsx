@@ -201,12 +201,6 @@ export const BuildYourBrand: React.FC = () => {
               >
                 Create Another Inquiry
               </button>
-              <button
-                onClick={() => setActiveTab('admin')}
-                className="px-5 py-2 rounded-xl bg-red-600 hover:bg-red-500 text-white font-extrabold text-xs shadow transition uppercase tracking-wider"
-              >
-                View in Admin Portal
-              </button>
             </div>
           </div>
         ) : (

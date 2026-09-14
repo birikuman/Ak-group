@@ -845,7 +845,7 @@ export const AFRICAN_LOCATIONS: AfricanLocation[] = [
     city: 'Kigali',
     entityName: 'AK GROUP LIMITED',
     isHeadquarters: true,
-    address: 'KN 3 Rd, Gikondo Industrial Zone, Kigali',
+    address: 'CHIC Building, 2nd Floor, Room F002, Kigali, Rwanda',
     phone: '+250 788 000 111',
     email: 'kigali@aksanti-branding.com',
     coordinates: { x: 62, y: 55 },

@@ -33,12 +33,6 @@ export const Navbar: React.FC = () => {
             <span className="hidden sm:inline-block text-[11px]">
               Kigali, Rwanda • Across Africa
             </span>
-            <button 
-              onClick={() => handleNavClick('admin')}
-              className="hover:text-amber-400 font-bold transition text-amber-300 uppercase tracking-wider text-[10px]"
-            >
-              Admin Portal
-            </button>
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@ export const Footer: React.FC = () => {
             AK GROUP LIMITED (RWANDA)
           </h4>
           <div className="space-y-2 text-slate-300">
-            <p>KG 7 Ave, Heights Building, Kigali, Rwanda</p>
+            <p>CHIC Building, 2nd Floor, Room F002, Kigali, Rwanda</p>
             <p className="font-mono">+250 788 123 456</p>
             <p className="font-mono">kigali@akgroup.com</p>
           </div>
@@ -85,12 +85,6 @@ export const Footer: React.FC = () => {
 
       <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row justify-between items-center gap-4 text-[11px] text-slate-500">
         <p>© 2026 AK GROUP LIMITED. All rights reserved. Across Africa.</p>
-        <button
-          onClick={() => handleNav('admin')}
-          className="text-slate-400 hover:text-white transition font-mono uppercase tracking-wider"
-        >
-          Admin Portal Access
-        </button>
       </div>
     </footer>
   );

@@ -121,7 +121,7 @@ export const AboutUs: React.FC = () => {
           <div className="white-card-thick p-6 rounded-2xl space-y-2 shadow-lg bg-white border border-slate-200 border-l-4 border-l-red-600">
             <h3 className="text-lg font-black text-[#0B2545]">AK GROUP LIMITED (KIGALI)</h3>
             <p className="text-xs font-bold text-slate-700">
-              Kigali, Rwanda Office & Regional Fulfillment Center
+              CHIC Building, 2nd Floor, Room F002, Kigali, Rwanda
             </p>
             <p className="text-xs text-slate-600 font-medium">
               Serving East and Central African business markets with rapid turnaround screen printing, embroidery, and event canopy fabrication.
