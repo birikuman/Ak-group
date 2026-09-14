@@ -7,7 +7,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Shirt',
     description: 'Premium custom shirts, polos, jackets, safety wear, and uniforms tailored for staff and campaigns.',
     sampleItems: 'T-shirts, polo shirts, jackets, uniforms, vests',
-    image: '/images/service-branding.webp',
+    image: '/images/product-polo-1.webp',
     isBrochureOriginal: true
   },
   {
@@ -91,9 +91,9 @@ export const PRODUCTS: Product[] = [
     categoryId: 'corporate-apparel',
     description: '220 GSM heavyweight combed cotton polo featuring reinforced collar, ribbed cuffs, and precision logo embroidery.',
     longDescription: 'Engineered for durability and comfort in African climate conditions. Ideal for corporate uniforms, staff apparel, and client activations. Features double-stitched seams and color-fast reactivity.',
-    image: '/images/service-branding.webp',
+    image: '/images/product-polo-1.webp',
     galleryImages: [
-      '/images/service-branding.webp',
+      '/images/product-polo-1.webp',
       '/images/product-polo-2.jpg',
       '/images/product-polo-3.webp'
     ],
@@ -209,7 +209,7 @@ export const PRODUCTS: Product[] = [
     image: '/images/product-pen-1.jpg',
     galleryImages: [
       '/images/product-pen-1.jpg',
-      '/images/product-pen-2.jpg',
+      '/images/product-pen-1.jpg',
       '/images/Brand-Web Banners-2026-Diaries.jpg'
     ],
     availableColors: ['#0B2545', '#1E293B', '#B45309', '#D71920'],
