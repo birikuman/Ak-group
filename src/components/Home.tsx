@@ -23,7 +23,7 @@ export const Home: React.FC = () => {
           <div className="lg:col-span-5 space-y-6 text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-[#0B2545] tracking-tight leading-none">
               WE BUILD BRANDS THAT <br />
-              <span className="text-gradient-red">GET NOTICED.</span>
+              <span className="text-gradient-red">PEOPLE WILL ALWAYS REMEMBER.</span>
             </h1>
 
             <p className="text-slate-600 text-xs sm:text-sm font-medium leading-relaxed max-w-md">
