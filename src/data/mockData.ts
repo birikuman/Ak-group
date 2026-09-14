@@ -660,9 +660,9 @@ export const PRODUCTS: Product[] = [
     categoryId: 'corporate-apparel',
     description: '180 GSM 100% combed cotton crew neck t-shirt featuring reinforced neck tape and vivid multi-color screen printing.',
     longDescription: 'Durable staff uniform and marketing campaign tee engineered for comfort and long-wearing wash fastness.',
-    image: '/images/product-tshirt-1.jpg',
+    image: '/images/product-polo-2.jpg',
     galleryImages: [
-      '/images/product-tshirt-1.jpg'
+      '/images/product-polo-2.jpg'
     ],
     availableColors: ['#FFFFFF', '#0B2545', '#D71920', '#000000'],
     material: '100% Combed Cotton (180 GSM)',
