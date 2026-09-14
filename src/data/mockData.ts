@@ -91,9 +91,9 @@ export const PRODUCTS: Product[] = [
     categoryId: 'corporate-apparel',
     description: '220 GSM heavyweight combed cotton polo featuring reinforced collar, ribbed cuffs, and precision logo embroidery.',
     longDescription: 'Engineered for durability and comfort in African climate conditions. Ideal for corporate uniforms, staff apparel, and client activations. Features double-stitched seams and color-fast reactivity.',
-    image: '/images/product-polo-1.webp',
+    image: '/images/service-branding.webp',
     galleryImages: [
-      '/images/product-polo-1.webp',
+      '/images/service-branding.webp',
       '/images/product-polo-2.jpg',
       '/images/product-polo-3.webp'
     ],
