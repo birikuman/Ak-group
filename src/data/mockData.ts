@@ -693,7 +693,7 @@ export const CASE_STUDIES: ProjectCaseStudy[] = [
     challenge: 'The client needed durable vehicle wraps capable of withstanding dust, UV exposure, and long-distance African transport routes without fading or peeling.',
     solution: 'Designed and applied 3M high-grade laminated cast vinyl wraps featuring vibrant company branding in green, white, and navy accents with precision panel matching.',
     results: 'Generated an estimated 2.5 million monthly brand impressions across East and Southern Africa highway corridors.',
-    mainImage: '/images/product-vehicle-1.jpeg',
+    mainImage: '/images/Chepkumia-Tea-vehicle-branding-Toyota-probox-01-scaled.jpg',
     beforeImage: '/images/casestudy-fleet-before.jpg',
     finishedImage: '/images/service-vehicle.jpeg',
     productsUsed: ['Commercial Fleet Vehicle Wrap', 'Reflective Safety Markings', 'Custom Decals']
