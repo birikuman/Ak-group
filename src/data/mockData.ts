@@ -7,7 +7,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Shirt',
     description: 'Premium custom shirts, polos, jackets, safety wear, and uniforms tailored for staff and campaigns.',
     sampleItems: 'T-shirts, polo shirts, jackets, uniforms, vests',
-    image: '/images/service-branding.webp',
+    image: '/images/Amrod-Digital-Catalogue-Web-Page-2026-THE-GOLF-COLLECTION.webp',
     isBrochureOriginal: true
   },
   {
@@ -70,7 +70,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Building2',
     description: 'Office environment graphics, 3D acrylic wall signs, reception banners, and architectural window vinyls.',
     sampleItems: '3D logos, wall vinyls, directional signage, flags',
-    image: '/images/service-branding.webp',
+    image: '/images/category-corporate-branding.jpg',
     isBrochureOriginal: false
   },
   {
@@ -125,7 +125,7 @@ export const PRODUCTS: Product[] = [
     image: '/images/Amrod-Digital-Catalogue-Web-Page-2026-THE-GOLF-COLLECTION.webp',
     galleryImages: [
       '/images/Amrod-Digital-Catalogue-Web-Page-2026-THE-GOLF-COLLECTION.webp',
-      '/images/product-polo-1.jpg'
+      '/images/service-branding.webp'
     ],
     availableColors: ['#0B2545', '#15803D', '#FFFFFF', '#1E293B'],
     availableSizes: ['S', 'M', 'L', 'XL', 'XXL', '3XL'],
@@ -710,7 +710,7 @@ export const CASE_STUDIES: ProjectCaseStudy[] = [
     solution: 'Leveraged AK GROUP’s prime outlets partnership network to centralize quality control and manage cross-border distribution seamlessly.',
     results: '100% on-time delivery across all regional branch locations with zero defect returns.',
     mainImage: '/images/casestudy-mining-main.webp',
-    finishedImage: '/images/product-polo-1.jpg',
+    finishedImage: '/images/service-branding.webp',
     productsUsed: ['Premium Corporate Polo Shirt', 'Executive Softshell Jacket', 'Lanyards']
   },
   {

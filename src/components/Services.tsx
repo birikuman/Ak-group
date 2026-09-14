@@ -6,7 +6,7 @@ const SERVICES_DATA = [
     id: 'branding-printing',
     title: 'Branding & Printing',
     tagline: 'Screen Printing, 3D Embroidery, Engraving & Foil Stamping',
-    image: '/images/service-branding.webp'
+    image: '/images/service-branding.jpg'
   },
   {
     id: 'corporate-merchandise',
@@ -45,7 +45,7 @@ export const Services: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white pb-20 text-slate-900">
-      
+
       {/* Header Banner */}
       <div className="bg-slate-50 border-b border-slate-200 py-12 px-4 sm:px-6 lg:px-8 text-center space-y-2">
         <span className="inline-block px-3 py-0.5 rounded-full text-[11px] font-bold bg-red-50 text-red-700 border border-red-200 uppercase tracking-wider">
@@ -65,7 +65,7 @@ export const Services: React.FC = () => {
             className="white-card-thick rounded-3xl overflow-hidden shadow-xl bg-white border border-slate-200 group hover:border-red-600 transition duration-500 flex flex-col justify-between"
           >
             {/* Big High Quality Vertical Portrait Picture */}
-            <div 
+            <div
               className="relative h-96 sm:h-[480px] overflow-hidden bg-slate-100 border-b border-slate-200 cursor-pointer"
               onClick={() => setPreviewImageUrl(service.image)}
             >
@@ -87,7 +87,7 @@ export const Services: React.FC = () => {
               <p className="text-slate-600 text-xs font-bold uppercase tracking-wider">
                 {service.tagline}
               </p>
-              
+
               <div className="pt-2 flex gap-3">
                 <button
                   onClick={() => {

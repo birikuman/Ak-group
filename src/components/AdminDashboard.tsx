@@ -24,7 +24,7 @@ export const AdminDashboard: React.FC = () => {
     name: '',
     categoryId: 'corporate-apparel',
     description: 'High durability corporate merchandise item customized for African enterprise operations.',
-    image: '/images/product-polo-1.jpg',
+    image: '/images/service-branding.webp',
     material: '100% Combed Cotton / Alloy Steel',
     brandingMethods: ['embroidery', 'screen-printing'],
     minimumQuantity: 50,

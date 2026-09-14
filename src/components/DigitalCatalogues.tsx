@@ -143,7 +143,7 @@ export const CATALOGUES_DATA: CatalogueItem[] = [
     stampedLogoText: 'AK GROUP GOLF EMBROIDERY',
     pages: [
       '/images/Amrod-Digital-Catalogue-Web-Page-2026-THE-GOLF-COLLECTION.webp',
-      '/images/product-polo-1.jpg',
+      '/images/service-branding.webp',
       '/images/product-polo-2.jpg',
       '/images/product-cap-1.jpg'
     ]
