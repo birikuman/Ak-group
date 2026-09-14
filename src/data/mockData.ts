@@ -502,9 +502,9 @@ export const PRODUCTS: Product[] = [
     categoryId: 'vehicle-branding',
     description: 'Cast vinyl full or partial vehicle wrap with UV anti-laminate protection for delivery fleets, SUVs, and vans.',
     longDescription: 'Transforms company vehicles into 24/7 mobile billboards. High-resolution latex print with bubble-free installation warranty across East & Southern Africa.',
-    image: '/images/product-vehicle-1.jpeg',
+    image: '/images/Chepkumia-Tea-vehicle-branding-Toyota-probox-01-scaled.jpg',
     galleryImages: [
-      '/images/product-vehicle-1.jpeg',
+      '/images/Chepkumia-Tea-vehicle-branding-Toyota-probox-01-scaled.jpg',
       '/images/service-vehicle.jpeg'
     ],
     availableColors: ['#0B2545', '#D71920', '#FFFFFF', '#15803D'],
