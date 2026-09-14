@@ -255,6 +255,9 @@ export const Showroom: React.FC = () => {
                         <img
                           src={product.image}
                           alt={product.name}
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = '/images/service-branding.webp';
+                          }}
                           className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-125"
                         />
                         

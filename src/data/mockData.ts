@@ -209,7 +209,7 @@ export const PRODUCTS: Product[] = [
     image: '/images/product-pen-1.jpg',
     galleryImages: [
       '/images/product-pen-1.jpg',
-      '/images/product-pen-2.jpg',
+      '/images/product-pen-1.jpg',
       '/images/Brand-Web Banners-2026-Diaries.jpg'
     ],
     availableColors: ['#0B2545', '#1E293B', '#B45309', '#D71920'],
@@ -554,10 +554,10 @@ export const PRODUCTS: Product[] = [
     categoryId: 'event-branding',
     description: 'Commercial grade aluminum frame pop-up gazebo tent with full custom dye-sublimated canopy and backwall.',
     longDescription: 'Waterproof, flame-retardant UV fabric canopy engineered for rugged outdoor events, brand activations, and trade expos.',
-    image: '/images/product-canopy-1.jpg',
+    image: '/images/category-event-branding.jpg',
     galleryImages: [
-      '/images/product-canopy-1.jpg',
-      '/images/category-event-branding.jpg'
+      '/images/category-event-branding.jpg',
+      '/images/service-event.jpg'
     ],
     availableColors: ['#0B2545', '#D71920', '#FFFFFF'],
     material: '600D Heavy Polyester with Hexagonal Hex-Aluminum Legs',
