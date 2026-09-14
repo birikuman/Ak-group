@@ -24,7 +24,7 @@ const SERVICES_DATA = [
     id: 'vehicle-branding',
     title: 'Vehicle Fleet Branding',
     tagline: '3M Cast Vinyl Wraps for Delivery Vans, Pickups & Sedans',
-    image: '/images/service-vehicle.jpeg'
+    image: '/images/vehicle-branding-2.png'
   },
   {
     id: 'event-branding',
@@ -72,7 +72,9 @@ export const Services: React.FC = () => {
               <img
                 src={service.image}
                 alt={service.title}
-                className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-125"
+                className={`w-full h-full ${
+                  service.image.endsWith('.png') ? 'object-contain p-4 bg-slate-50' : 'object-cover'
+                } transition-transform duration-700 ease-out group-hover:scale-105`}
               />
               <div className="absolute top-4 left-4 bg-red-600 text-white font-black text-xs px-3 py-1 rounded-full uppercase tracking-wider shadow">
                 SERVICE 0{index + 1}
