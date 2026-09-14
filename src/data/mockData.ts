@@ -7,7 +7,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Shirt',
     description: 'Premium custom shirts, polos, jackets, safety wear, and uniforms tailored for staff and campaigns.',
     sampleItems: 'T-shirts, polo shirts, jackets, uniforms, vests',
-    image: '/images/product-polo-1.webp',
+    image: '/images/service-branding.webp',
     isBrochureOriginal: true
   },
   {
@@ -61,7 +61,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Truck',
     description: 'Turn company fleets, vans, and sedans into mobile high-impact advertising platforms across African highways.',
     sampleItems: 'Full wraps, partial wraps, fleet decals, magnetic signs',
-    image: '/images/vehicle-branding-dubai.png',
+    image: '/images/product-vehicle-1.jpeg',
     isBrochureOriginal: false
   },
   {
@@ -79,7 +79,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Tent',
     description: 'Pop-up canopy tents, pull-up banners, teardrop flags, stage backdrops, and trade show exhibition booths.',
     sampleItems: 'Canopies, teardrop flags, backdrops, lanyards',
-    image: '/images/product-polo-2.jpg',
+    image: '/images/category-event-branding.jpg',
     isBrochureOriginal: false
   }
 ];
@@ -91,9 +91,9 @@ export const PRODUCTS: Product[] = [
     categoryId: 'corporate-apparel',
     description: '220 GSM heavyweight combed cotton polo featuring reinforced collar, ribbed cuffs, and precision logo embroidery.',
     longDescription: 'Engineered for durability and comfort in African climate conditions. Ideal for corporate uniforms, staff apparel, and client activations. Features double-stitched seams and color-fast reactivity.',
-    image: '/images/product-polo-1.webp',
+    image: '/images/service-branding.webp',
     galleryImages: [
-      '/images/product-polo-1.webp',
+      '/images/service-branding.webp',
       '/images/product-polo-2.jpg',
       '/images/product-polo-3.webp'
     ],
@@ -209,7 +209,7 @@ export const PRODUCTS: Product[] = [
     image: '/images/product-pen-1.jpg',
     galleryImages: [
       '/images/product-pen-1.jpg',
-      '/images/product-pen-1.jpg',
+      '/images/product-pen-2.jpg',
       '/images/Brand-Web Banners-2026-Diaries.jpg'
     ],
     availableColors: ['#0B2545', '#1E293B', '#B45309', '#D71920'],
@@ -554,10 +554,10 @@ export const PRODUCTS: Product[] = [
     categoryId: 'event-branding',
     description: 'Commercial grade aluminum frame pop-up gazebo tent with full custom dye-sublimated canopy and backwall.',
     longDescription: 'Waterproof, flame-retardant UV fabric canopy engineered for rugged outdoor events, brand activations, and trade expos.',
-    image: '/images/category-event-branding.jpg',
+    image: '/images/product-canopy-1.jpg',
     galleryImages: [
-      '/images/category-event-branding.jpg',
-      '/images/service-event.jpg'
+      '/images/product-canopy-1.jpg',
+      '/images/category-event-branding.jpg'
     ],
     availableColors: ['#0B2545', '#D71920', '#FFFFFF'],
     material: '600D Heavy Polyester with Hexagonal Hex-Aluminum Legs',
@@ -660,9 +660,9 @@ export const PRODUCTS: Product[] = [
     categoryId: 'corporate-apparel',
     description: '180 GSM 100% combed cotton crew neck t-shirt featuring reinforced neck tape and vivid multi-color screen printing.',
     longDescription: 'Durable staff uniform and marketing campaign tee engineered for comfort and long-wearing wash fastness.',
-    image: '/images/product-polo-2.jpg',
+    image: '/images/product-tshirt-1.jpg',
     galleryImages: [
-      '/images/product-polo-2.jpg'
+      '/images/product-tshirt-1.jpg'
     ],
     availableColors: ['#FFFFFF', '#0B2545', '#D71920', '#000000'],
     material: '100% Combed Cotton (180 GSM)',

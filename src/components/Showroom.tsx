@@ -4,12 +4,12 @@ import { CATEGORIES } from '../data/mockData';
 import { ProductDetailModal } from './ProductDetailModal';
 
 export const Showroom: React.FC = () => {
-  const { 
-    products, 
-    filters, 
-    setFilters, 
-    resetFilters, 
-    selectedProduct, 
+  const {
+    products,
+    filters,
+    setFilters,
+    resetFilters,
+    selectedProduct,
     setSelectedProduct,
     setPreviewImageUrl
   } = useApp();
@@ -43,7 +43,7 @@ export const Showroom: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white pb-20 text-slate-900">
-      
+
       {/* Showroom Header Banner */}
       <div className="bg-slate-50 border-b border-slate-200 py-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center space-y-3">
@@ -81,7 +81,7 @@ export const Showroom: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-        
+
         {/* Category Cards Grid - Clean Text Only */}
         <div className="mb-8">
           <div className="flex items-center justify-between mb-3">
@@ -99,11 +99,10 @@ export const Showroom: React.FC = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-2">
             <button
               onClick={() => setFilters(prev => ({ ...prev, categoryId: 'all' }))}
-              className={`p-3 rounded-xl border text-center transition flex flex-col items-center justify-center ${
-                filters.categoryId === 'all'
+              className={`p-3 rounded-xl border text-center transition flex flex-col items-center justify-center ${filters.categoryId === 'all'
                   ? 'bg-red-600 border-red-600 text-white shadow'
                   : 'bg-white text-slate-700 border-slate-200 hover:border-red-600 hover:text-[#0B2545]'
-              }`}
+                }`}
             >
               <span className="text-xs font-black">All Items</span>
             </button>
@@ -114,11 +113,10 @@ export const Showroom: React.FC = () => {
                 <button
                   key={cat.id}
                   onClick={() => setFilters(prev => ({ ...prev, categoryId: cat.id }))}
-                  className={`p-3 rounded-xl border text-center transition flex flex-col items-center justify-center ${
-                    isActive
+                  className={`p-3 rounded-xl border text-center transition flex flex-col items-center justify-center ${isActive
                       ? 'bg-red-600 border-red-600 text-white shadow'
                       : 'bg-white text-slate-700 border-slate-200 hover:border-red-600 hover:text-[#0B2545]'
-                  }`}
+                    }`}
                 >
                   <span className="text-[11px] font-bold leading-tight">{cat.name}</span>
                 </button>
@@ -129,7 +127,7 @@ export const Showroom: React.FC = () => {
 
         {/* Sidebar Filters + Product Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-          
+
           {/* Sidebar Filters - Icon Free */}
           <div className="lg:col-span-3 space-y-4">
             <div className="white-card-thick p-4 rounded-2xl sticky top-20 space-y-4 bg-white border border-slate-200">
@@ -219,7 +217,7 @@ export const Showroom: React.FC = () => {
 
           {/* Product Grid Container - Ultra Clean Cards */}
           <div className="lg:col-span-9">
-            
+
             <div className="flex items-center justify-between mb-3">
               <span className="text-xs font-bold text-slate-600">
                 Showing <strong className="text-[#0B2545] font-black">{filteredProducts.length}</strong> product capabilities
@@ -248,25 +246,22 @@ export const Showroom: React.FC = () => {
                   >
                     <div>
                       {/* Product Image Banner - Vertical Portrait & Hover Scale */}
-                      <div 
+                      <div
                         className="relative h-80 sm:h-96 bg-slate-100 overflow-hidden cursor-pointer border-b border-slate-200"
                         onClick={() => setPreviewImageUrl(product.image)}
                       >
                         <img
                           src={product.image}
                           alt={product.name}
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = '/images/service-branding.webp';
-                          }}
                           className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-125"
                         />
-                        
+
                         {/* AK GROUP LOGO STICKER EMBLEM STUCK ON THE PRODUCT */}
                         <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-md px-2 py-1 rounded-xl border border-slate-200 shadow-lg flex items-center gap-1.5 z-20 group-hover:scale-105 transition">
-                          <img 
-                            src="/images/aksanti-logo.png" 
-                            alt="AK Logo" 
-                            className="h-5 w-auto object-contain" 
+                          <img
+                            src="/images/aksanti-logo.png"
+                            alt="AK Logo"
+                            className="h-5 w-auto object-contain"
                           />
                           <span className="text-[9px] font-black text-[#0B2545] tracking-tight uppercase">AK GROUP</span>
                         </div>
@@ -297,7 +292,7 @@ export const Showroom: React.FC = () => {
                           <span className="text-[10px] font-mono text-slate-600 font-bold">{product.material.split(' ')[0]}</span>
                         </div>
 
-                        <h3 
+                        <h3
                           onClick={() => setSelectedProduct(product)}
                           className="text-base font-extrabold text-[#0B2545] group-hover:text-red-600 transition cursor-pointer truncate"
                         >

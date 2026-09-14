@@ -24,7 +24,7 @@ const SERVICES_DATA = [
     id: 'vehicle-branding',
     title: 'Vehicle Fleet Branding',
     tagline: '3M Cast Vinyl Wraps for Delivery Vans, Pickups & Sedans',
-    image: '/images/service-vehicle.jpeg'
+    image: '/images/vehicle-branding-2.png'
   },
   {
     id: 'event-branding',
