@@ -6,7 +6,7 @@ const SERVICES_DATA = [
     id: 'branding-printing',
     title: 'Branding & Printing',
     tagline: 'Screen Printing, 3D Embroidery, Engraving & Foil Stamping',
-    image: '/images/service-branding.jpg'
+    image: '/images/print.jpg'
   },
   {
     id: 'corporate-merchandise',
