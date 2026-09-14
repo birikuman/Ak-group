@@ -238,16 +238,16 @@ export const Showroom: React.FC = () => {
                 </button>
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {filteredProducts.map((product) => (
                   <div
                     key={product.id}
                     className="white-card-thick rounded-3xl overflow-hidden group hover:border-red-600 transition-all duration-500 flex flex-col justify-between hover:shadow-2xl bg-white border border-slate-200"
                   >
                     <div>
-                      {/* Product Image Banner - Vertical Portrait & Hover Scale */}
+                      {/* Product Image Banner - Big Vertical Aspect Portrait */}
                       <div
-                        className="relative h-80 sm:h-96 bg-slate-100 overflow-hidden cursor-pointer border-b border-slate-200"
+                        className="relative h-[400px] sm:h-[480px] lg:h-[520px] bg-slate-100 overflow-hidden cursor-pointer border-b border-slate-200"
                         onClick={() => setPreviewImageUrl(product.image)}
                       >
                         <img

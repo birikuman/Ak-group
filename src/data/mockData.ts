@@ -678,6 +678,114 @@ export const PRODUCTS: Product[] = [
       'Weight': '180 GSM Single Jersey',
       'Fit': 'Unisex Regular Fit'
     }
+  },
+  {
+    id: 'prod-vehicle-dubai',
+    name: 'Dubai Executive Van & Delivery Fleet Branding',
+    categoryId: 'vehicle-branding',
+    description: 'High-impact 3M cast vinyl wrap for commercial delivery vans, urban fleets, and corporate logistics vehicles.',
+    longDescription: 'Precision contoured vehicle graphics engineered to maximize brand visibility on city streets and African highways. Guaranteed non-peel latex print finish.',
+    image: '/images/vehicle-branding-dubai.png',
+    galleryImages: [
+      '/images/vehicle-branding-dubai.png',
+      '/images/vehicle-branding-2.png'
+    ],
+    availableColors: ['#0B2545', '#D71920', '#FFFFFF'],
+    material: '3M / Avery Dennison Premium Cast Vinyl + Laminate',
+    brandingMethods: ['full-custom'],
+    minimumQuantity: 1,
+    estimatedProductionDays: 3,
+    featured: true,
+    isNew: true,
+    isCustomizable: true,
+    priceType: 'Price available on quotation',
+    useCases: ['marketing', 'corporate'],
+    status: 'active',
+    specifications: {
+      'Vinyl Type': '3M High-Gloss Laminated Cast Vinyl',
+      'Durability': '5 Year Weatherproof Outdoor Warranty'
+    }
+  },
+  {
+    id: 'prod-vehicle-fleet-2',
+    name: 'Enterprise Commercial Fleet & Pickup Wrap',
+    categoryId: 'vehicle-branding',
+    description: 'Full body high-gloss cast vinyl wrap for enterprise pickups, sedans, and service fleet vehicles.',
+    longDescription: 'Turn your field operations into 24/7 mobile high-impact advertising assets across East and Southern Africa transport routes.',
+    image: '/images/vehicle-branding-2.png',
+    galleryImages: [
+      '/images/vehicle-branding-2.png',
+      '/images/product-vehicle-1.jpeg'
+    ],
+    availableColors: ['#0B2545', '#15803D', '#FFFFFF', '#D71920'],
+    material: 'Full Body Laminated UV Cast Vinyl',
+    brandingMethods: ['full-custom'],
+    minimumQuantity: 1,
+    estimatedProductionDays: 3,
+    featured: true,
+    isNew: true,
+    isCustomizable: true,
+    priceType: 'Price available on quotation',
+    useCases: ['marketing', 'corporate'],
+    status: 'active',
+    specifications: {
+      'Finish': 'UV Gloss Anti-Scratch Protection',
+      'Installation': 'Pan-African On-Site Fleet Wrap Service'
+    }
+  },
+  {
+    id: 'prod-vehicle-probox',
+    name: 'Chepkumia Commercial Probox Fleet Wrap',
+    categoryId: 'vehicle-branding',
+    description: 'Custom corporate branding wrap for commercial Probox, utility wagons, and regional transport fleets.',
+    longDescription: 'Heavy-duty full wrap designed for regional tea, agricultural, and logistics distribution fleets.',
+    image: '/images/Chepkumia-Tea-vehicle-branding-Toyota-probox-01-scaled.jpg',
+    galleryImages: [
+      '/images/Chepkumia-Tea-vehicle-branding-Toyota-probox-01-scaled.jpg',
+      '/images/service-vehicle.jpeg'
+    ],
+    availableColors: ['#15803D', '#0B2545', '#FFFFFF'],
+    material: 'Heavy Duty UV Protected Laminated Vinyl',
+    brandingMethods: ['full-custom'],
+    minimumQuantity: 1,
+    estimatedProductionDays: 3,
+    featured: true,
+    isNew: true,
+    isCustomizable: true,
+    priceType: 'Price available on quotation',
+    useCases: ['marketing', 'corporate'],
+    status: 'active',
+    specifications: {
+      'Application': 'Commercial Distribution & Utility Fleets',
+      'Warranty': '3M Certified Pan-African Warranty'
+    }
+  },
+  {
+    id: 'prod-wafa-tumbler',
+    name: 'Wafa Premium Stainless Steel Thermal Eco Tumbler',
+    categoryId: 'drinkware',
+    description: 'Double-wall vacuum insulated stainless steel tumbler with spill-proof lid and precision laser-engraved corporate logo.',
+    longDescription: 'Keeps beverages icy cold for 24 hours or steaming hot for 12 hours. Premium corporate hydration gift for C-suite executives and staff.',
+    image: '/images/i14 - wafa.avif',
+    galleryImages: [
+      '/images/i14 - wafa.avif',
+      '/images/product-flask-1.jpg'
+    ],
+    availableColors: ['#0B2545', '#1E293B', '#D71920', '#FFFFFF'],
+    material: '304 Food-Grade Stainless Steel (BPA Free)',
+    brandingMethods: ['laser-engraving', 'screen-printing'],
+    minimumQuantity: 25,
+    estimatedProductionDays: 5,
+    featured: true,
+    isNew: true,
+    isCustomizable: true,
+    priceType: 'Price available on quotation',
+    useCases: ['corporate', 'gifts', 'marketing'],
+    status: 'active',
+    specifications: {
+      'Capacity': '750ml',
+      'Thermal Guarantee': '24h Cold / 12h Hot'
+    }
   }
 ];
 
