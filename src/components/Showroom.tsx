@@ -253,7 +253,12 @@ export const Showroom: React.FC = () => {
                         <img
                           src={product.image}
                           alt={product.name}
-                          className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-125"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = '/images/service-branding.webp';
+                          }}
+                          className={`w-full h-full ${
+                            product.image.endsWith('.png') ? 'object-contain p-4 bg-slate-50' : 'object-cover'
+                          } transition-transform duration-700 ease-out group-hover:scale-110`}
                         />
 
                         {/* AK GROUP LOGO STICKER EMBLEM STUCK ON THE PRODUCT */}

@@ -554,10 +554,10 @@ export const PRODUCTS: Product[] = [
     categoryId: 'event-branding',
     description: 'Commercial grade aluminum frame pop-up gazebo tent with full custom dye-sublimated canopy and backwall.',
     longDescription: 'Waterproof, flame-retardant UV fabric canopy engineered for rugged outdoor events, brand activations, and trade expos.',
-    image: '/images/product-canopy-1.jpg',
+    image: '/images/category-event-branding.jpg',
     galleryImages: [
-      '/images/product-canopy-1.jpg',
-      '/images/category-event-branding.jpg'
+      '/images/category-event-branding.jpg',
+      '/images/service-event.jpg'
     ],
     availableColors: ['#0B2545', '#D71920', '#FFFFFF'],
     material: '600D Heavy Polyester with Hexagonal Hex-Aluminum Legs',
@@ -660,9 +660,9 @@ export const PRODUCTS: Product[] = [
     categoryId: 'corporate-apparel',
     description: '180 GSM 100% combed cotton crew neck t-shirt featuring reinforced neck tape and vivid multi-color screen printing.',
     longDescription: 'Durable staff uniform and marketing campaign tee engineered for comfort and long-wearing wash fastness.',
-    image: '/images/product-tshirt-1.jpg',
+    image: '/images/product-polo-2.jpg',
     galleryImages: [
-      '/images/product-tshirt-1.jpg'
+      '/images/product-polo-2.jpg'
     ],
     availableColors: ['#FFFFFF', '#0B2545', '#D71920', '#000000'],
     material: '100% Combed Cotton (180 GSM)',
