@@ -61,7 +61,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Truck',
     description: 'Turn company fleets, vans, and sedans into mobile high-impact advertising platforms across African highways.',
     sampleItems: 'Full wraps, partial wraps, fleet decals, magnetic signs',
-    image: '/images/product-vehicle-1.jpeg',
+    image: '/images/vehicle-branding-dubai.png',
     isBrochureOriginal: false
   },
   {
