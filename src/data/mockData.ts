@@ -7,7 +7,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Shirt',
     description: 'Premium custom shirts, polos, jackets, safety wear, and uniforms tailored for staff and campaigns.',
     sampleItems: 'T-shirts, polo shirts, jackets, uniforms, vests',
-    image: '/images/service-branding.webp',
+    image: '/images/product-polo-1.webp',
     isBrochureOriginal: true
   },
   {
@@ -79,7 +79,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Tent',
     description: 'Pop-up canopy tents, pull-up banners, teardrop flags, stage backdrops, and trade show exhibition booths.',
     sampleItems: 'Canopies, teardrop flags, backdrops, lanyards',
-    image: '/images/category-event-branding.jpg',
+    image: '/images/product-polo-2.jpg',
     isBrochureOriginal: false
   }
 ];
