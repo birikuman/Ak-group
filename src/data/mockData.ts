@@ -43,7 +43,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Crown',
     description: 'High-density embroidered caps, bucket hats, sun visors, and promotional beanies for field teams and marketing.',
     sampleItems: 'Caps, hats, beanies, visors',
-    image: '/images/category-headwear.jpg',
+    image: '/images/61kDYnptdnL._AC_UY1100_.jpg',
     isBrochureOriginal: true
   },
   {
