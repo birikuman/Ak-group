@@ -25,7 +25,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Coffee',
     description: 'Insulated stainless steel tumblers, ceramic mugs, thermal flasks, and eco-friendly bamboo bottles.',
     sampleItems: 'Mugs, bottles, tumblers, flasks, eco cups',
-    image: '/images/category-drinkware.jpg',
+    image: '/images/i14 - wafa.avif',
     isBrochureOriginal: true
   },
   {

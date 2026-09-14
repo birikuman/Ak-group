@@ -162,7 +162,7 @@ export const CATALOGUES_DATA: CatalogueItem[] = [
       '/images/Amrod-Digital-Catalogue-Web-Page-2026-DRINKWARE.webp',
       '/images/product-flask-1.jpg',
       '/images/product-flask-2.jpg',
-      '/images/category-drinkware.jpg'
+      '/images/i14 - wafa.avif'
     ]
   },
   {
