@@ -14,11 +14,11 @@ export const Home: React.FC = () => {
 
   return (
     <div className="bg-white space-y-16 pb-20 text-slate-900">
-      
+
       {/* HERO SECTION - Vertical Advert Showcase */}
       <section className="relative bg-gradient-to-b from-slate-50 via-white to-slate-50 pt-8 pb-16 px-4 sm:px-6 lg:px-8 border-b border-slate-200">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-          
+
           {/* Hero Left Content */}
           <div className="lg:col-span-5 space-y-6 text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-[#0B2545] tracking-tight leading-none">
@@ -41,13 +41,13 @@ export const Home: React.FC = () => {
           {/* Hero Right Showcase - Big Vertical Portrait Image */}
           <div className="lg:col-span-7">
             <div className="white-card-thick p-3 sm:p-4 rounded-3xl shadow-2xl bg-white border border-slate-200">
-              <div 
+              <div
                 className="relative h-[480px] sm:h-[560px] rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 cursor-pointer group shadow-inner"
-                onClick={() => setPreviewImageUrl('/images/service-branding.webp')}
+                onClick={() => setPreviewImageUrl('/images/product-polo-1.webp')}
               >
                 <img
-                  src="/images/service-branding.webp"
-                  alt="Custom Corporate Branding Showcase"
+                  src="/images/product-polo-1.webp"
+                  alt="Premium Corporate Polo Shirt Showcase"
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-125"
                 />
               </div>
@@ -75,7 +75,7 @@ export const Home: React.FC = () => {
               className="white-card-thick rounded-3xl overflow-hidden group hover:border-red-600 transition duration-500 shadow-md hover:shadow-2xl flex flex-col justify-between bg-white border border-slate-200"
             >
               {/* Vertical Aspect Portrait Image */}
-              <div 
+              <div
                 className="relative h-80 sm:h-96 overflow-hidden bg-slate-100 border-b border-slate-200 cursor-pointer"
                 onClick={() => setPreviewImageUrl(cat.image)}
               >
@@ -98,7 +98,7 @@ export const Home: React.FC = () => {
                 </p>
                 <div className="flex items-center justify-between pt-1 border-t border-slate-100 text-xs">
                   <span className="text-red-600 font-bold uppercase tracking-wider text-[10px]">Custom Branding</span>
-                  <button 
+                  <button
                     onClick={() => handleExploreCategory(cat.id)}
                     className="font-extrabold text-[#0B2545] text-xs hover:text-red-600 transition"
                   >
@@ -123,17 +123,17 @@ export const Home: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Okiyo Eco-Friendly Gifts */}
-          <div 
+          <div
             onClick={() => {
               setPreviewImageUrl('/images/Brand-Web-Banners-2026-Okiyo.jpg');
             }}
             className="white-card-thick rounded-3xl overflow-hidden cursor-pointer group shadow-md hover:shadow-2xl border border-slate-200 transition duration-500"
           >
             <div className="relative h-64 overflow-hidden bg-slate-100">
-              <img 
-                src="/images/Brand-Web-Banners-2026-Okiyo.jpg" 
-                alt="Okiyo Eco-Friendly Gifts" 
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+              <img
+                src="/images/Brand-Web-Banners-2026-Okiyo.jpg"
+                alt="Okiyo Eco-Friendly Gifts"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute top-3 left-3 bg-[#0B2545]/90 text-white font-extrabold text-[10px] px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-sm shadow">
                 OKIYO ECO LINE
@@ -146,17 +146,17 @@ export const Home: React.FC = () => {
           </div>
 
           {/* Kooshty Drinkware */}
-          <div 
+          <div
             onClick={() => {
               setPreviewImageUrl('/images/Brand-Web-Banners-2026-Kooshty.jpg');
             }}
             className="white-card-thick rounded-3xl overflow-hidden cursor-pointer group shadow-md hover:shadow-2xl border border-slate-200 transition duration-500"
           >
             <div className="relative h-64 overflow-hidden bg-slate-100">
-              <img 
-                src="/images/Brand-Web-Banners-2026-Kooshty.jpg" 
-                alt="Kooshty Drinkware & Apparel" 
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+              <img
+                src="/images/Brand-Web-Banners-2026-Kooshty.jpg"
+                alt="Kooshty Drinkware & Apparel"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute top-3 left-3 bg-red-600/90 text-white font-extrabold text-[10px] px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-sm shadow">
                 KOOSHTY LIFESTYLE
@@ -169,17 +169,17 @@ export const Home: React.FC = () => {
           </div>
 
           {/* Executive Diaries */}
-          <div 
+          <div
             onClick={() => {
               setPreviewImageUrl('/images/Brand-Web Banners-2026-Diaries.jpg');
             }}
             className="white-card-thick rounded-3xl overflow-hidden cursor-pointer group shadow-md hover:shadow-2xl border border-slate-200 transition duration-500"
           >
             <div className="relative h-64 overflow-hidden bg-slate-100">
-              <img 
-                src="/images/Brand-Web Banners-2026-Diaries.jpg" 
-                alt="2026 Executive Planners" 
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+              <img
+                src="/images/Brand-Web Banners-2026-Diaries.jpg"
+                alt="2026 Executive Planners"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute top-3 left-3 bg-amber-600/90 text-white font-extrabold text-[10px] px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-sm shadow">
                 EXECUTIVE DIARIES
@@ -204,7 +204,7 @@ export const Home: React.FC = () => {
 
         <div className="white-card-thick p-4 sm:p-6 rounded-3xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-center shadow-xl bg-white border border-slate-200">
           <div className="lg:col-span-7">
-            <div 
+            <div
               className="relative h-96 sm:h-[500px] rounded-2xl overflow-hidden border border-slate-300 shadow-md cursor-pointer group"
               onClick={() => setPreviewImageUrl(CASE_STUDIES[0].mainImage)}
             >
