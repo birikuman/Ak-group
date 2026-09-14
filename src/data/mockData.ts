@@ -7,7 +7,7 @@ export const CATEGORIES: Category[] = [
     iconName: 'Shirt',
     description: 'Premium custom shirts, polos, jackets, safety wear, and uniforms tailored for staff and campaigns.',
     sampleItems: 'T-shirts, polo shirts, jackets, uniforms, vests',
-    image: '/images/product-polo-1.webp',
+    image: '/images/service-branding.webp',
     isBrochureOriginal: true
   },
   {
